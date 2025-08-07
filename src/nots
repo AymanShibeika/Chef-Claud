@@ -1,0 +1,65 @@
+to finish the padding problem in a page
+#root ,html{
+ width: 100%;
+  margin: 0;
+  padding: 0;
+}
+so you can make the bullets inside next to the text
+li{
+   list-style-position: inside;
+}
+
+change the bullet color in lists
+li::marker{
+  for colors:  color:rgb(0, 216, 255);
+for sizes : front-siz:20px
+}
+
+
+{
+  background-repeat: no-repeat;
+    background-position: right 65%;  to control both x and y
+    background-position-x: right; just x
+    background-position-y: 65%; just y
+}
+
+
+if you use flex box an element might shrink or become smaller 
+here is how to solve it:
+img.main-image-container {
+ flex-shrink: 0;
+}
+
+will get the time from your system
+new Date().getHours
+
+
+
+object disrtruction
+const person = {
+    img: "./images/mr-whiskerson.png",
+    name: "Mr. Whiskerson",
+    phone: "(800) 555-1234",
+    email: "mr.whiskaz@catnap.meow"
+}
+
+const {img, name} = person
+console.log(img) == 
+
+
+<hr /> will make a horizantal row
+
+
+
+
+{props.setup && <p className="setup">Setup: {props.setup}</p>}
+if(props.setup) =><p className="setup">Setup: {props.setup}</p>
+
+
+align items=> will stop the strecth of elements when flex box is used
+
+
+flex-wrap: no-wrap will not wrap the text inside the element
+
+
+ flex-grow: 1; will make the element expand with the screen
