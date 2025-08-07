@@ -10,9 +10,6 @@ return(
 }
 export function Joke(props){
   return(
-    <section id="hey">
-      <h3>setup: {props.setup}</h3>
-      <h3>punshline: {props.punchline}</h3><br /><br />
-    </section>
+ <h2>Hello</h2>
   )
 }
