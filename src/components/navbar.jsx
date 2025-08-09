@@ -1,13 +1,9 @@
 export default function Header(){
-    const title="Chef Cluad";
-    
-    return(
-        <header>
-            <nav id="myNav">
-                <img src="src/assets/botImage.png" alt="" />
-                <span>{title}</span>
-            </nav>
-        </header>
-
+   return( <header>
+    <nav>
+    <img src="src/assets/Vedio.svg" alt="" />
+<h1>Go outdoors!</h1>
+    </nav>
+    </header>
     )
 }

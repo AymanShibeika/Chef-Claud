@@ -1,15 +1,15 @@
-export default function Main (){
-return(
-  <main>
-    <form action="">
-      <input type="text"  placeholder="eggs for example"/>
-      <button type="button" class="">+ Add a ingridient</button>
-    </form>
-  </main>
-)
-}
-export function Joke(props){
-  return(
- <h2>Hello</h2>
-  )
+export default function Main(props){
+    return(
+<main>
+ <section>
+   <iframe src={props.videoLink} frameborder="0"></iframe>
+   <article>
+      <h3>{props.title}</h3>
+      <p>{props.text}</p>
+   </article>
+
+ </section>
+
+</main>
+    )
 }
