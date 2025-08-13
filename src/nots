@@ -63,3 +63,22 @@ flex-wrap: no-wrap will not wrap the text inside the element
 
 
  flex-grow: 1; will make the element expand with the screen
+
+
+
+defaultValue  will give a value to the form element
+
+
+<fieldset>  an outlined box
+
+  <legend>Employ</legend> a label for fieldset
+
+ </fieldset>
+
+ defaultChecked="true"  for radio box
+
+
+ formData.getAll("dietaryRestrictions") getting an array  of the check items in check boxes
+
+
+ <option value="" disabled>-- Choose a color --</option>
