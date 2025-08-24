@@ -4,6 +4,8 @@ html, body {
 
 body {
     font-family: Inter;
+    align-items: center;
+    justify-content: center;
 }
 
 .container {
@@ -51,4 +53,36 @@ background-color: black;
 border-radius: 20px;
 color: white;
 margin-left: 20px;
+}
+
+.imgDiv{
+    display: flex;
+
+}
+.ready-for-recipe{
+    display: flex;
+    flex-direction: row;
+border-radius: 10px;
+    margin-top: 90px;
+align-items: center;
+justify-content: center;
+background-color: #F0EFEB;
+width: 800px;
+margin-left: 300px;
+}
+
+.recipe-inner-text{
+display: flex;
+flex-direction: column;
+
+}
+#recipe-button{
+background-color: #D17557;
+border-radius: 10px;
+height: 50px;
+margin-left: 30px;
+color: white;
+}
+p{
+    margin-top: 30px;
 }

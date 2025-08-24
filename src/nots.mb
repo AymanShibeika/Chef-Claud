@@ -4,6 +4,7 @@ to finish the padding problem in a page
   margin: 0;
   padding: 0;
 }
+
 so you can make the bullets inside next to the text
 li{
    list-style-position: inside;
@@ -82,3 +83,35 @@ defaultValue  will give a value to the form element
 
 
  <option value="" disabled>-- Choose a color --</option>
+
+   {isShown$$ <p>{props.punchline}</p>}
+
+
+   `You have ${message.length} unread messages`
+
+
+   pad-container {
+    display: grid;      
+    grid-template-columns: repeat(4, 100px);    
+    grid-template-rows: repeat(2, 100px);
+    gap: 10px;
+}
+  This CSS is creating a grid layout with 4 columns and 2 rows, each being 100px in size.
+
+
+
+import React from "react"
+import padsData from "./pads"
+import Pad from "./Pad"
+
+export default function App() {
+    const [pads, setPads] = React.useState(padsData)
+    
+    function turnAllPadsOff() {
+        console.log("Turning off")
+        setPads(prevPads => prevPads.map(pad => ({
+            ...pad,
+            on: false
+        })))
+    }
+    
